@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
+import FlexItems from './FlexItems';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <FlexItems />
   </React.StrictMode>,
   document.getElementById('root')
 );
